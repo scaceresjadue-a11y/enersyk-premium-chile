@@ -33,7 +33,7 @@ const ContactForm = () => {
     "w-full px-4 py-3 rounded-xl bg-secondary border border-border text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary/50 transition-shadow text-sm";
 
   return (
-    <section id="cotizar" className="section-padding bg-background">
+    <section className="section-padding bg-background">
       <div className="container mx-auto max-w-2xl">
         <div className="text-center mb-12">
           <span className="text-sm font-semibold text-primary uppercase tracking-wider">
