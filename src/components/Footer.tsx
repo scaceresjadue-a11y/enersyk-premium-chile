@@ -1,4 +1,14 @@
+import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin } from "lucide-react";
+import WhatsAppIcon from "./WhatsAppIcon";
+
+const footerLinks = [
+  { to: "/", label: "Inicio" },
+  { to: "/portones", label: "Portones Automáticos" },
+  { to: "/camaras", label: "Cámaras de Seguridad" },
+  { to: "/portafolio", label: "Portafolio" },
+  { to: "/contacto", label: "Cotizar Proyecto" },
+];
 
 const Footer = () => {
   return (
@@ -9,21 +19,18 @@ const Footer = () => {
             <h3 className="font-display text-2xl font-bold mb-4">ENERSYK</h3>
             <p className="text-background/60 text-sm leading-relaxed">
               Especialistas en automatización de portones y sistemas de seguridad para
-              hogares y empresas en Chile.
+              hogares y empresas en Santiago, Chile.
             </p>
           </div>
 
           <div>
             <h4 className="font-display font-semibold mb-4">Navegación</h4>
             <ul className="space-y-2 text-sm text-background/60">
-              {["Inicio", "Beneficios", "Portones", "Cámaras", "Portafolio", "Testimonios", "FAQ", "Cotizar"].map((label) => (
-                <li key={label}>
-                  <a
-                    href={`#${label.toLowerCase()}`}
-                    className="hover:text-background transition-colors"
-                  >
-                    {label}
-                  </a>
+              {footerLinks.map((link) => (
+                <li key={link.to}>
+                  <Link to={link.to} className="hover:text-background transition-colors">
+                    {link.label}
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -42,6 +49,17 @@ const Footer = () => {
                 <Mail size={16} />
                 <a href="mailto:contacto@enersyk.cl" className="hover:text-background transition-colors">
                   contacto@enersyk.cl
+                </a>
+              </li>
+              <li className="flex items-center gap-2">
+                <WhatsAppIcon size={16} />
+                <a
+                  href="https://wa.me/56912345678"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-background transition-colors"
+                >
+                  WhatsApp
                 </a>
               </li>
               <li className="flex items-start gap-2">
