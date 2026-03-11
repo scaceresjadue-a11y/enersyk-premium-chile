@@ -1,12 +1,10 @@
-import { MessageCircle } from "lucide-react";
+import { Link } from "react-router-dom";
+import WhatsAppIcon from "./WhatsAppIcon";
 import heroImage from "@/assets/hero-gate.jpg";
 
 const Hero = () => {
   return (
-    <section
-      id="inicio"
-      className="relative min-h-screen flex items-center justify-center overflow-hidden"
-    >
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background image */}
       <div className="absolute inset-0">
         <img
@@ -34,19 +32,19 @@ const Hero = () => {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-up" style={{ animationDelay: "0.3s" }}>
-          <a
-            href="#cotizar"
+          <Link
+            to="/contacto"
             className="px-8 py-4 rounded-full bg-primary text-primary-foreground font-semibold text-lg hover:opacity-90 transition-opacity animate-pulse-glow"
           >
             Cotizar Proyecto
-          </a>
+          </Link>
           <a
             href="https://wa.me/56912345678?text=Hola%20ENERSYK,%20quiero%20cotizar%20un%20proyecto"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-hero-foreground/20 text-hero-foreground font-semibold text-lg hover:bg-hero-foreground/10 transition-colors"
           >
-            <MessageCircle size={20} />
+            <WhatsAppIcon size={20} />
             WhatsApp
           </a>
         </div>
