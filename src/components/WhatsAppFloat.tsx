@@ -1,6 +1,6 @@
 import WhatsAppIcon from "./WhatsAppIcon";
 
-const WHATSAPP_NUMBER = "56912345678";
+const WHATSAPP_NUMBER = "56959413134";
 const WHATSAPP_MESSAGE = "Hola ENERSYK, quiero cotizar un proyecto";
 
 const WhatsAppFloat = () => {

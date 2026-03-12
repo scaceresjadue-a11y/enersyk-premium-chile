@@ -32,15 +32,15 @@ const Contacto = () => {
             <div className="glass-card p-5 text-center">
               <Phone size={24} className="mx-auto text-primary mb-3" />
               <p className="text-sm font-medium text-foreground">Teléfono</p>
-              <a href="tel:+56912345678" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                +56 9 1234 5678
+              <a href="tel:+56959413134" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                +56 9 5941 3134
               </a>
             </div>
             <div className="glass-card p-5 text-center">
               <div className="flex justify-center mb-3 text-primary"><WhatsAppIcon size={24} /></div>
               <p className="text-sm font-medium text-foreground">WhatsApp</p>
               <a
-                href="https://wa.me/56912345678?text=Hola%20ENERSYK,%20quiero%20cotizar%20un%20proyecto"
+                href="https://wa.me/56959413134?text=Hola%20ENERSYK,%20quiero%20cotizar%20un%20proyecto"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-muted-foreground hover:text-primary transition-colors"
@@ -58,7 +58,8 @@ const Contacto = () => {
             <div className="glass-card p-5 text-center">
               <Clock size={24} className="mx-auto text-primary mb-3" />
               <p className="text-sm font-medium text-foreground">Horario</p>
-              <p className="text-sm text-muted-foreground">Lun-Sáb 8:00 - 19:00</p>
+              <p className="text-sm text-muted-foreground">Lun-Vie 09:00 - 18:00</p>
+              <p className="text-sm text-muted-foreground">Sáb 09:00 - 14:00</p>
             </div>
           </div>
         </div>

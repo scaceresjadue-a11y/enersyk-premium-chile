@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin } from "lucide-react";
 import WhatsAppIcon from "./WhatsAppIcon";
+import logo4 from "@/assets/logo_4.png";
 
 const footerLinks = [
   { to: "/", label: "Inicio" },
@@ -16,7 +17,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-display text-2xl font-bold mb-4">ENERSYK</h3>
+            <img src={logo4} alt="ENERSYK" className="h-12 mb-4" />
             <p className="text-background/60 text-sm leading-relaxed">
               Especialistas en automatización de portones y sistemas de seguridad para
               hogares y empresas en Santiago, Chile.
@@ -41,8 +42,8 @@ const Footer = () => {
             <ul className="space-y-3 text-sm text-background/60">
               <li className="flex items-center gap-2">
                 <Phone size={16} />
-                <a href="tel:+56912345678" className="hover:text-background transition-colors">
-                  +56 9 1234 5678
+                <a href="tel:+56959413134" className="hover:text-background transition-colors">
+                  +56 9 5941 3134
                 </a>
               </li>
               <li className="flex items-center gap-2">
@@ -54,7 +55,7 @@ const Footer = () => {
               <li className="flex items-center gap-2">
                 <WhatsAppIcon size={16} />
                 <a
-                  href="https://wa.me/56912345678"
+                  href="https://wa.me/56959413134"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-background transition-colors"
@@ -71,7 +72,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/10 mt-12 pt-8 text-center text-sm text-background/40">
-          © {new Date().getFullYear()} ENERSYK. Todos los derechos reservados.
+          © {new Date().getFullYear()} ENERSYK. Todos los derechos reservados. Diseñado por ENERSYK.
         </div>
       </div>
     </footer>
