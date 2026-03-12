@@ -72,7 +72,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/10 mt-12 pt-8 text-center text-sm text-background/40">
-          © {new Date().getFullYear()} ENERSYK. Todos los derechos reservados.
+          © {new Date().getFullYear()} ENERSYK. Todos los derechos reservados. Diseñado por ENERSYK.
         </div>
       </div>
     </footer>

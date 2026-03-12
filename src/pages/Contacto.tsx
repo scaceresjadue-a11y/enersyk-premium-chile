@@ -58,7 +58,8 @@ const Contacto = () => {
             <div className="glass-card p-5 text-center">
               <Clock size={24} className="mx-auto text-primary mb-3" />
               <p className="text-sm font-medium text-foreground">Horario</p>
-              <p className="text-sm text-muted-foreground">Lun-Sáb 8:00 - 19:00</p>
+              <p className="text-sm text-muted-foreground">Lun-Vie 09:00 - 18:00</p>
+              <p className="text-sm text-muted-foreground">Sáb 09:00 - 14:00</p>
             </div>
           </div>
         </div>

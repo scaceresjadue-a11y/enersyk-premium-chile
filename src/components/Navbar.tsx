@@ -19,8 +19,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-xl border-b border-border/50">
       <div className="container mx-auto flex items-center justify-between h-16 px-4">
-        <Link to="/" className="font-display text-xl font-bold tracking-tight gradient-text">
-          ENERSYK
+        <Link to="/" className="flex items-center">
+          <img src={logo} alt="ENERSYK" className="h-8" />
         </Link>
 
         {/* Desktop */}
