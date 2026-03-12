@@ -32,7 +32,7 @@ const Contacto = () => {
             <div className="glass-card p-5 text-center">
               <Phone size={24} className="mx-auto text-primary mb-3" />
               <p className="text-sm font-medium text-foreground">Teléfono</p>
-              <a href="tel:+56912345678" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="tel:+56959413134" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                 +56 9 5941 3134
               </a>
             </div>
