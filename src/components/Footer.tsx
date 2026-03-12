@@ -17,7 +17,7 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
           <div>
-            <h3 className="font-display text-2xl font-bold mb-4">ENERSYK</h3>
+            <img src={logo4} alt="ENERSYK" className="h-12 mb-4" />
             <p className="text-background/60 text-sm leading-relaxed">
               Especialistas en automatización de portones y sistemas de seguridad para
               hogares y empresas en Santiago, Chile.
