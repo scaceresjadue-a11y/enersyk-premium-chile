@@ -55,7 +55,7 @@ const Footer = () => {
               <li className="flex items-center gap-2">
                 <WhatsAppIcon size={16} />
                 <a
-                  href="https://wa.me/56912345678"
+                  href="https://wa.me/56959413134"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-background transition-colors"
