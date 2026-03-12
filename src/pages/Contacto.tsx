@@ -40,7 +40,7 @@ const Contacto = () => {
               <div className="flex justify-center mb-3 text-primary"><WhatsAppIcon size={24} /></div>
               <p className="text-sm font-medium text-foreground">WhatsApp</p>
               <a
-                href="https://wa.me/56912345678?text=Hola%20ENERSYK,%20quiero%20cotizar%20un%20proyecto"
+                href="https://wa.me/56959413134?text=Hola%20ENERSYK,%20quiero%20cotizar%20un%20proyecto"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm text-muted-foreground hover:text-primary transition-colors"
