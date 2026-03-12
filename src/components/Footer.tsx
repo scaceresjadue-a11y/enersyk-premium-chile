@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Mail, Phone, MapPin } from "lucide-react";
 import WhatsAppIcon from "./WhatsAppIcon";
+import logo4 from "@/assets/logo_4.png";
 
 const footerLinks = [
   { to: "/", label: "Inicio" },
