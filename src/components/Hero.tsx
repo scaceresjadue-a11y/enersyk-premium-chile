@@ -39,7 +39,7 @@ const Hero = () => {
             Cotizar Proyecto
           </Link>
           <a
-            href="https://wa.me/56912345678?text=Hola%20ENERSYK,%20quiero%20cotizar%20un%20proyecto"
+            href="https://wa.me/56959413134?text=Hola%20ENERSYK,%20quiero%20cotizar%20un%20proyecto"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-8 py-4 rounded-full border border-hero-foreground/20 text-hero-foreground font-semibold text-lg hover:bg-hero-foreground/10 transition-colors"
